@@ -1,0 +1,24 @@
+{
+    "name": "parcialdos/app",
+    "description": "Proyecto parcial PHP con tests",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Tu Nombre",
+            "email": "tu@email.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
